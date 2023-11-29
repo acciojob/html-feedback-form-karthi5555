@@ -1,2 +1,29 @@
 
 /* Your CSS Code here. */
+body {
+            font-family: 'Arial', sans-serif;
+        }
+        form {
+            max-width: 400px;
+            margin: 20px auto;
+        }
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+        input, select {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+        }
+        input[type="range"] {
+            width: auto;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
